@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/formContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".fragments.HomeFragment">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/media_stream_url_til"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/video_link_text"
+        app:startIconDrawable="@drawable/insert_link_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/media_stream_url_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:singleLine="true"
+            tools:ignore="TextContrastCheck" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/drm_licence_url_til"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/drm_licence_url"
+        app:startIconDrawable="@drawable/insert_link_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/drm_licence_url_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lines="1"
+            android:maxLines="1"
+            android:singleLine="true"
+            tools:ignore="TextContrastCheck" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/referer_til"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/referer_value"
+        app:startIconDrawable="@drawable/create_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/referer_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lines="1"
+            android:maxLines="1"
+            android:singleLine="true"
+            tools:ignore="TextContrastCheck" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/origin_til"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/origin_value"
+        app:startIconDrawable="@drawable/create_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/origin_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lines="1"
+            android:maxLines="1"
+            android:singleLine="true"
+            tools:ignore="TextContrastCheck" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/userAgentSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/spinner_border"
+        android:paddingHorizontal="10dp"
+        android:spinnerMode="dropdown"
+        android:textColor="?attr/text_color"
+        tools:ignore="HardcodedText" />
+
+    <Spinner
+        android:id="@+id/drmSchemeSelector"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/spinner_border"
+        android:paddingHorizontal="10dp"
+        android:spinnerMode="dropdown"
+        android:textColor="?attr/text_color"
+        tools:ignore="HardcodedText" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/play_btn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/day_blue"
+        android:text="Play"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:icon="@drawable/play_arrow_24"
+        app:iconGravity="textStart"
+        app:iconSize="30dp"
+        app:iconTint="@color/white"
+        tools:ignore="HardcodedText,TextContrastCheck" />
+</LinearLayout>

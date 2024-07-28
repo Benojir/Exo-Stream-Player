@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Exo Stream Player</string>
+
+    <string name="video_link_text">Media Stream URL</string>
+    <string name="drm_licence_url">DRM Licence URL</string>
+    <string name="referer_value">Referer Value</string>
+
+    <string name="chrome_android_agent">Mozilla/5.0 (Linux; Android 12; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Mobile Safari/537.36</string>
+    <string name="firefox_android_agent">Mozilla/5.0 (Linux; Android 11; SAMSUNG SM-G973U) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/14.2 Chrome/87.0.4280.141 Mobile Safari/537.36</string>
+    <string name="chrome_windows_agent">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36</string>
+    <string name="firefox_windows_agent">Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0</string>
+
+    <string-array name="agent_browsers_names">
+        <item>Default</item>
+        <item>Chrome Android</item>
+        <item>Chrome Windows</item>
+        <item>Firefox Android</item>
+        <item>Firefox Windows</item>
+        <item>Custom</item>
+    </string-array>
+
+    <string-array name="drm_schemes">
+        <item>Widevine</item>
+        <item>PlayReady</item>
+        <item>ClearKey</item>
+    </string-array>
+
+    <string name="default_drm_licence_url">https://cwip-shaka-proxy.appspot.com/no_auth</string>
+
+    <string name="github_repo_link">https://github.com/VenomDino/Exo-Stream-Player</string>
+    <string name="app_sharing_message">One of the best network video player. Download now https://play.google.com/store/apps/details?id=</string>
+    <string name="more_apps"><![CDATA[https://play.google.com/store/search?q=pub:+Creative+Papa&c=apps]]></string>
+    <string name="official_telegram_channel">https://t.me/CreativePapa</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="origin_value">Origin Value</string>
+    <string name="search_hint">Search videos...</string>
+</resources>

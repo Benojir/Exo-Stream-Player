@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ExoNetworkStreamer" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/day_blue</item>
+        <item name="main_theme_color">@color/day_blue</item>
+        <item name="background_color">@color/fade_white</item>
+        <item name="text_color">@color/fade_black</item>
+        <item name="android:statusBarColor">?attr/main_theme_color</item>
+
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.ExoNetworkStreamer" parent="Base.Theme.ExoNetworkStreamer" />
+</resources>
