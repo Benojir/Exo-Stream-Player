@@ -34,7 +34,7 @@ Follow these instructions to get the Exo Stream Player app up and running on you
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/VenomDino/Exo-Stream-Player.git
+   git clone https://github.com/Benojir/Exo-Stream-Player.git
 2. Open the project in Android Studio.
 3. Build and run the app on an emulator or a physical device.
 
