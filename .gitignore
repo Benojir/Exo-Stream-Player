@@ -13,5 +13,5 @@
 .externalNativeBuild
 .cxx
 local.properties
-./app/release
+app/release
 zzz.bat
